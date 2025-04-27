@@ -1,0 +1,789 @@
+/* ____________________F O N T S_________________________ */
+
+/* #region FONTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+
+
+
+/*    font-family: "Merienda";    */
+
+
+/* #endregion FONTS */
+
+
+
+
+
+body {
+  background: linear-gradient(180deg, #FFF 0%, #FFFCF5 63%);
+}
+
+
+
+
+/* _____________________H E A D E R______________________ */
+
+/* #region HEADER */
+
+header {
+  background: #FFFCF5;
+  padding: 44px 0;
+}
+
+.row-header {
+  justify-content: space-between;
+}
+
+.row-ul {
+  gap: 40px;
+}
+
+.row-ul li {
+  padding: 6px 0;
+}
+
+.row-ul li a {
+  color: #000;
+  font-family: "Merienda";
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.row-ul li .new {
+  font-weight: 700;
+}
+
+.row-ul li a:hover {
+  font-weight: 700;
+}
+
+.row-header button {
+  border: 0;
+  background: transparent;
+  display: none;
+}
+
+.row-header button img {
+  width: 48px;
+  height: 48px;
+}
+
+
+/* #endregion HEADER */
+
+
+
+
+
+/* _______________________H E R O________________________ */
+
+/* #region HERO */
+
+.hero-section {
+  background-image: url(../img/hero/img.png);
+  background-size: contain;
+  background-position: top right;
+  background-repeat: no-repeat;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.h1-hero {
+  max-width: 444px;
+  color: #000;
+  font-family: "Merienda";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.p-hero {
+  max-width: 421px;
+  min-height: 89px;
+  color: #4D4D4D;
+  font-family: "Merienda";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.link-hero {
+  display: flex;
+  width: 283px;
+  padding: 16px 24px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  border: 2px solid #424B5A;
+  background: #FF9D02;
+  color: #FFF;
+  text-align: center;
+  font-family: "Merienda";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  transition: all .3s;
+}
+
+.link-hero:hover {
+  border: 2px solid #FF9D02;
+  color: #FF9D02;
+  background: transparent;
+  box-shadow: 2px 2px 20px 0px rgb(0 0 0 / 39%);
+}
+
+.item-hero {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.img-hero {
+  width: 100%;
+}
+
+/* #endregion HERO */
+
+
+
+
+
+
+/* ________________________T W O_________________________ */
+
+/* #region TWO */
+
+.section-two {
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+
+.img-two {
+  width: 100%;
+}
+
+.row-two {
+  justify-content: space-between;
+}
+
+.h2-two {
+  color: #FF9D02;
+  font-family: "Merienda";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.h2-two span {
+  color: #000;
+  margin-left: 15px;
+}
+
+.p-two {
+  max-width: 592px;
+  color: #717171;
+  font-family: "Merienda";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.link-two {
+  display: flex;
+  width: 180px;
+  padding: 16px 24px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  border: 2px solid #FF9D02;
+  background: transparent;
+  color: #FF9D02;
+  text-align: center;
+  font-family: "Merienda";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  transition: all .3s;
+}
+
+.link-two:hover {
+  border: 2px solid #424B5A;
+  color: #ffffff;
+  background: #FF9D02;
+  box-shadow: 2px 2px 20px 0px rgb(0 0 0 / 39%);
+}
+
+.item-two {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+
+
+/* #endregion TWO */
+
+
+
+
+
+
+/* ______________________T H R E E_______________________ */
+
+/* #region THREE */
+
+.section-three {
+  padding: 64px 0;
+}
+
+.col-4-three {
+  transition: all .5s;
+}
+
+.col-4-three:hover {
+  transform: translateY(80px);
+}
+
+.h2-three {
+  max-width: 592px;
+  color: #000;
+  text-align: center;
+  font-family: "Merienda";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 40px;
+}
+
+.h2-three span {
+  color: #FF9D02;
+  font-family: "Merienda";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-left: 15px;
+}
+
+.item-three {
+  border-radius: 16px;
+  background: #FFF;
+  overflow: hidden;
+  box-shadow: 0px 4px 35px 0px rgba(0, 0, 0, 0.20);
+}
+
+.img-item img {
+  width: 100%;
+}
+
+.text-item {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.h4-item-three {
+  color: #000;
+  font-family: "Merienda";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.p-item-three {
+  color: #57595B;
+  font-family: "Merienda";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.p-item-three span {
+  padding-left: 5px;
+}
+
+.limk-item-three a {
+  width: 132px;
+  display: flex;
+  padding: 12px 20px;
+  justify-content: center;
+  border-radius: 4px;
+  border: 2px solid #424B5A;
+  background: #FF9D02;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFF;
+  text-align: center;
+  font-family: "Merienda";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  transition: all .3s;
+}
+
+.limk-item-three a:hover {
+  background: transparent;
+  border: 2px solid #FF9D02;
+  color: #FF9D02;
+  box-shadow: 2px 2px 20px 0px rgb(0 0 0 / 39%);
+}
+
+
+/* #endregion THREE */
+
+
+
+
+
+
+/* _______________________F O U R________________________ */
+
+/* #region FOUR */
+
+.section-four {
+  padding: 128px 0 64px 0;
+}
+
+.h2-four {
+  color: #000;
+  text-align: center;
+  font-family: "Merienda";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 40px;
+}
+
+.h2-four span {
+  color: #FF9D02;
+  margin-left: 20px;
+}
+
+.col-four {
+  text-align: center;
+}
+
+.item-four {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  border-radius: 10px;
+  transition: all .5s;
+  padding: 24px;
+  max-width: 284px;
+  min-height: 360px;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.item-four:hover {
+  background: #FFF;
+  box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.20);
+}
+
+.img-item-four {
+  width: 100%;
+  width: 88px;
+  height: 88px;
+}
+
+.text-item-four{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.h4-item-four {
+  color: #000;
+  text-align: center;
+  font-family: "Merienda";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.p-item-four {
+  color: #484848;
+  text-align: center;
+  font-family: "Merienda";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 100%;
+  max-width: 236px;
+}
+
+
+
+/* #endregion FOUR */
+
+
+
+
+
+
+
+/* _______________________F I V E________________________ */
+
+/* #region FIVE */
+
+
+.section-five {
+  padding: 128px 96px;
+}
+
+.h2-five {
+  color: #000;
+  text-align: center;
+  font-family: "Merienda";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.h2-five span {
+  padding-left: 20px;
+  color: #FF9D02;
+}
+
+.row-five {
+  align-items: center;
+  justify-content: center;
+  gap: 64px;
+}
+
+.item-five{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 260px;
+  padding: 24px;
+  background-color: #FFF;
+  border-radius: 6px;
+  box-shadow: 0px 0px 34.514px 0px rgba(0, 0, 0, 0.20);
+  transition: all 1s;
+  transform-origin: top;
+}
+
+.item-five:hover{
+  transform: scale(1.15);
+  background-color: #FF9D02;
+  .h5-item-five{
+    color: #FFF;
+  }
+}
+
+.h5-item-five {
+  color: #000;
+  text-align: center;
+  font-family: "Merienda";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.p-item-five {
+  color: #202020;
+  text-align: center;
+  font-family: "Merienda";
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+
+/* #endregion FIVE */
+
+
+
+
+
+
+
+
+/* _____________________F O O T E R______________________ */
+
+/* #region FOOTER */
+
+
+footer {
+  height: 180px;
+  padding: 37.5px 0;
+}
+
+.row-footer {
+  justify-content: space-between;
+}
+
+.col-1-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  max-width: 388px;
+}
+
+.col-1-footer .row-img-footer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+}
+
+.row-link-footer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.p-col-footer {
+  color: #000;
+  font-family: "Merienda";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.col-2-footer {
+  max-width: 534px;
+}
+
+.h5-form-footer {
+  color: #000;
+  font-family: "Merienda";
+  margin-bottom: 8px;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.p-form-footer {
+  color: #484848;
+  font-family: "Merienda";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 16px;
+}
+
+.row-form {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 30px;
+}
+
+.row-form input {
+  max-width: 378px;
+  width: 100%;
+  height: 40px;
+  padding: 10px 24px;
+  color: #424B5A;
+  font-family: "Merienda";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  border-radius: 2px;
+  border: 2px solid #FF9D02;
+  background: #FFF;
+}
+
+.row-form button {
+  width: 200px;
+  padding: 8px ;
+  height: 40px;
+  border-radius: 4px;
+  background: #FF9D02;
+  color: #FFF;
+  text-align: center;
+  font-family: "Merienda";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  border: 2px solid #FF9D02;
+  transition: all .3s;
+}
+
+.row-form button:hover {
+  background: transparent;
+  color: #FF9D02;
+}
+
+
+/* #endregion FOOTER */
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1001px) and (max-width: 1230px) {
+  .hero-section {
+    background-image: none;
+  }
+
+  .item-hero, .link-hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .h1-hero {
+    max-width: 589px;
+  }
+}
+
+
+@media (max-width: 1000px) {
+
+  .hero-section {
+    background-image: none;
+  }
+
+  .col-6 {
+    width: 100%;
+  }
+
+  .col-5 {
+    width: 100%;
+  }
+
+  .item-hero, .link-hero, .link-two, .item-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .col-nav {
+    display: none;
+  }
+
+  .row-header button {
+    display: flex;
+  }
+
+  .item-hero {
+    margin: 0;
+  }
+}
+
+@media (max-width: 962px) {
+
+  .col-1-footer, .col-2-footer {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .h5-form-footer, .p-form-footer {
+    text-align: center;
+  }
+
+  .p-col-footer {
+    text-align: center;
+  }
+
+  footer {
+    margin-bottom: 37px;
+  }
+
+}
+
+@media (max-width: 564px) {
+
+}
+
+@media (max-width: 824px) {
+
+  .item-five {
+    transform-origin: unset;
+  }
+
+}
+
+
+@media (max-width: 680px) {
+
+  .col-four {
+    width: 100%;
+  }
+
+  .col-4 {
+    width: 100%;
+  }
+
+  .col-4-three {
+    margin: 0;
+  }
+
+  .col-4-three:hover {
+    transform: translate(0);
+  }
+
+}
+
+@media (max-width: 581px) {
+
+  .section-five {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+}
+
+@media (max-width: 340px) {
+
+  .h2-three {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .h2-three span {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+  }
+
+}

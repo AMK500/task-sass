@@ -1,0 +1,476 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url(./bootstrap.css);
+@import url(./basics.css);
+header {
+  background-color: #fff;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  box-shadow: 0px 0px 10px 3px rgba(203, 203, 203, 0.3803921569);
+}
+header .d-flex {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+header .d-flex nav ul {
+  display: flex;
+  gap: 24px;
+}
+header .d-flex nav ul a {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+}
+header .d-flex .btn-primary {
+  padding: 2px;
+  border-radius: 0px;
+  border: 2px solid #0f62fe;
+  transition: all 0.3s;
+  display: none;
+}
+header .d-flex .btn-primary svg {
+  transition: all 0.3s;
+}
+header .d-flex .btn-primary svg path {
+  transition: all 0.3s;
+}
+header .d-flex .btn-primary:hover {
+  background-color: transparent;
+}
+header .d-flex .btn-primary:hover svg path {
+  fill: #0f62fe;
+}
+header .d-flex #offcanvasRight {
+  width: 270px;
+}
+header .d-flex #offcanvasRight .btn-close {
+  border-radius: 0px;
+}
+header .d-flex #offcanvasRight .offcanvas-body nav ul {
+  flex-direction: column;
+}
+@media (max-width: 550px) {
+  header .d-flex .btn-primary {
+    display: flex;
+  }
+  header .d-flex nav {
+    display: none;
+  }
+  header .d-flex .offcanvas-body nav {
+    display: block;
+  }
+}
+
+.hero {
+  padding: 160px 0 80px 0;
+  background-color: #f2f4f8;
+}
+.hero .container {
+  background-image: url(../img/hero/Vector.svg);
+  background-position: left;
+  background-repeat: no-repeat;
+  height: 574px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.hero .container .item {
+  max-width: 600px;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 48px;
+}
+.hero .container .item .text {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.hero .container .item .text h4 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  color: #001d6c;
+}
+.hero .container .item .text h4 span {
+  margin-right: 6px;
+  color: #001d6c;
+}
+.hero .container .item .links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+.hero .container .item .links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 172px;
+  height: 56px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  border: 2px solid #0f62fe;
+  transition: all 0.3s;
+}
+.hero .container .item .links .primary {
+  background: #0f62fe;
+  color: #fff;
+}
+.hero .container .item .links .primary:hover {
+  color: #0f62fe;
+  background: #fff;
+}
+@media (max-width: 640px) {
+  .hero .container .item {
+    text-align: center;
+    align-items: center;
+  }
+  .hero .container .item .text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 615px) {
+  .hero .container {
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+/* #endregion HERO */
+.awards {
+  background-color: #f2f4f8;
+  padding: 80px 0;
+}
+.awards ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+@media (max-width: 747px) {
+  .awards ul {
+    justify-content: center;
+  }
+}
+
+.numbers {
+  padding: 80px 0;
+  border-bottom: 1px solid #dde1e6;
+}
+.numbers .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 64px;
+}
+.numbers .container .text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 8px;
+  text-align: center;
+}
+.numbers .container .text h4 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  color: #001d6c;
+}
+.numbers .container .row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 30px;
+}
+.numbers .container .row .item {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 16px;
+}
+.numbers .container .row .item .text p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.cards {
+  padding: 80px 0;
+}
+.cards .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 64px;
+}
+.cards .container .text {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.cards .container .text h4 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  color: #001d6c;
+}
+.cards .container .row {
+  row-gap: 30px;
+  width: 100%;
+  justify-content: center;
+}
+.cards .container .row article {
+  border: 1px solid #dde1e6;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.cards .container .row article .img {
+  width: 100%;
+}
+.cards .container .row article .img img {
+  width: 100%;
+}
+.cards .container .row article .text {
+  gap: 16px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: left;
+  padding: 24px 16px 16px 16px;
+}
+.cards .container .row article .links {
+  padding: 16px;
+}
+.cards .container .row article .links a {
+  color: #0f62fe;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding-bottom: 16px;
+}
+.cards .container .link a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 175px;
+  height: 56px;
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  background: #0f62fe;
+  border: 2px solid #0f62fe;
+  transition: all 0.3s;
+}
+.cards .container .link a:hover {
+  background: transparent;
+  color: #0f62fe;
+}
+
+#carousel {
+  background-color: #f2f4f8;
+  padding: 80px 0;
+}
+#carousel .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#carousel .container #carouselExample {
+  max-width: 900px;
+  display: flex;
+  gap: 5px;
+}
+#carousel .container #carouselExample .carousel-inner {
+  max-width: 820px;
+}
+#carousel .container #carouselExample .carousel-inner .carousel-item {
+  max-width: 820px;
+  transition: 0.4s ease-out;
+}
+#carousel .container #carouselExample .carousel-inner .carousel-item .item {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  text-align: center;
+}
+#carousel .container .carousel-control-prev-icon {
+  transform: rotate(180deg);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24px' viewBox='0 -960 960 960' width='24px' fill='%23000000'%3E%3Cpath d='m321-80-71-71 329-329-329-329 71-71 400 400L321-80Z'/%3E%3C/svg%3E");
+}
+#carousel .container .carousel-control-next-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24px' viewBox='0 -960 960 960' width='24px' fill='%23000000'%3E%3Cpath d='m321-80-71-71 329-329-329-329 71-71 400 400L321-80Z'/%3E%3C/svg%3E");
+}
+#carousel .container .carousel-control-prev,
+#carousel .container .carousel-control-next {
+  width: 24px;
+}
+#carousel .container .carousel-control-prev {
+  position: static;
+}
+#carousel .container .carousel-control-next {
+  position: static;
+}
+
+.form {
+  padding: 80px 0;
+}
+.form .container {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  align-items: center;
+}
+.form .container .text {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.form .container .text h4 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  color: #001d6c;
+}
+.form .container form {
+  width: 100%;
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+.form .container form div {
+  width: 100%;
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.form .container form div label {
+  color: #21272a;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+.form .container form div input,
+.form .container form div select {
+  padding: 12px 16px;
+  width: 100%;
+  max-width: 700px;
+  height: 48px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  color: #697077;
+  border: 0;
+  border-bottom: 1px solid #c1c7cd;
+  background: #f2f4f8;
+}
+.form .container form div input:focus-visible,
+.form .container form div select:focus-visible,
+.form .container form div textarea:focus-visible {
+  outline-style: dashed;
+  outline-width: 2px;
+  outline-offset: -5px;
+  outline-color: #0f62fe;
+}
+.form .container form div textarea {
+  padding: 12px 16px;
+  width: 100%;
+  max-width: 700px;
+  height: 100px;
+  border: 0;
+  border-bottom: 1px solid #c1c7cd;
+  background: #f2f4f8;
+}
+.form .container form button {
+  background-color: #0f62fe;
+  border: 2px solid #0f62fe;
+  color: #fff;
+  height: 48px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  width: 100%;
+  max-width: 167px;
+  transition: all 0.3s;
+}
+.form .container form button:hover {
+  background: transparent;
+  color: #0f62fe;
+}
+
+footer {
+  background-color: #697077;
+  padding: 24px 0;
+}
+footer P {
+  text-align: center;
+  color: #fff;
+}
+
+/*# sourceMappingURL=style.css.map */

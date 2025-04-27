@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>MyNest (Home)</title>
+
+    <!-- Main CSS -->
+    <link href="./css/style.css" rel="stylesheet" />
+
+    <link rel="icon" href="./img/icon.svg" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <div class="d-flex">
+          <div class="logo">
+            <a href="#">
+              <img src="./img/header/logo.svg" alt="" />
+            </a>
+          </div>
+
+          <nav>
+            <ul class="ul">
+              <li>
+                <a href="#" class="Active"> Home </a>
+              </li>
+
+              <li>
+                <a href="#"> About Us </a>
+              </li>
+
+              <li>
+                <a href="#"> Products </a>
+              </li>
+
+              <li class="dropdown-center">
+                <button
+                  class="btn btn-secondary dropdown-toggle"
+                  type="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Contact Us
+                </button>
+                <ul class="dropdown-menu" style="top: 5px">
+                  <li><a class="dropdown-item Active" href="#">Home</a></li>
+                  <li><a class="dropdown-item" href="#">About Us</a></li>
+                  <li><a class="dropdown-item" href="#">Products</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+
+          <div class="links">
+            <a href="#" class="log"> Log In </a>
+
+            <a href="#" class="sign"> Sign Up </a>
+          </div>
+
+          <button
+            class="btn btn-primary"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasRight"
+            aria-controls="offcanvasRight"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="40px"
+              viewBox="0 -960 960 960"
+              width="40px"
+              fill="#fff"
+            >
+              <path
+                d="M120-240v-66.67h520V-240H120Zm673.33-48L600.67-480.67l192-192L840-625.33 695.33-480.67l145.34 145.34L793.33-288ZM120-448v-66.67h400V-448H120Zm0-205.33V-720h520v66.67H120Z"
+              />
+            </svg>
+          </button>
+
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasRight"
+            aria-labelledby="offcanvasRightLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasRightLabel">
+                <img src="./img/header/logo.svg" alt="" />
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <nav>
+                <ul class="ul">
+                  <li>
+                    <a href="#" class="Active"> Home </a>
+                  </li>
+
+                  <li>
+                    <a href="#"> About Us </a>
+                  </li>
+
+                  <li>
+                    <a href="#"> Products </a>
+                  </li>
+
+                  <li class="dropdown-center">
+                    <button
+                      class="btn btn-secondary dropdown-toggle"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Contact Us
+                    </button>
+                    <ul class="dropdown-menu" style="top: 5px">
+                      <li><a class="dropdown-item Active" href="#">Home</a></li>
+                      <li><a class="dropdown-item" href="#">About Us</a></li>
+                      <li><a class="dropdown-item" href="#">Products</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </nav>
+
+              <div class="links">
+                <a href="#" class="log"> Log In </a>
+
+                <a href="#" class="sign"> Sign Up </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="container">
+        <div class="d-flex">
+          <div class="col">
+            <div class="item">
+              <div class="text">
+                <h1>Find Your Perfect Home with Ease</h1>
+
+                <p>
+                  Explore a wide range of properties that suit your lifestyle,
+                  with detailed listings, expert advice, and seamless
+                  transactions. Start your journey to a new home today
+                </p>
+              </div>
+
+              <div class="links">
+                <a href="#" class="buy"> Buy </a>
+
+                <a href="#" class="rent"> Rent </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col2">
+            <div class="image">
+              <img src="./img/hero/image.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats">
+      <div class="container">
+        <div class="text-headeng">
+          <h2>All You Need to Know About Us</h2>
+
+          <p>
+            At MyNest, we’re committed to helping you find your ideal property
+            with expertise and integrity. Learn about our journey and how we
+            bring your real estate goals to life
+          </p>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-6 col-lg-4 col-xl-3">
+            <div class="item">
+              <div>
+                <img src="./img/two/1.svg" alt="" />
+              </div>
+              <div class="text">
+                <h3>122+</h3>
+                <p>Available Properties</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-lg-4 col-xl-3">
+            <div class="item">
+              <div>
+                <img src="./img/two/2.svg" alt="" />
+              </div>
+              <div class="text">
+                <h3>200+</h3>
+                <p>Properties Sold</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-lg-4 col-xl-3">
+            <div class="item">
+              <div>
+                <img src="./img/two/3.svg" alt="" />
+              </div>
+              <div class="text">
+                <h3>150+</h3>
+                <p>Properties Rented</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-lg-4 col-xl-3">
+            <div class="item">
+              <div>
+                <img src="./img/two/4.svg" alt="" />
+              </div>
+              <div class="text">
+                <h3>350+</h3>
+                <p>Happy Clients</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cards">
+      <div class="container">
+        <div class="text">
+          <h4>Success Partners</h4>
+          <h2>
+            We're proud of our clients' success and committed to providing the
+            best real estate solutions
+          </h2>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 col-lg-4">
+            <div class="item">
+              <a href="#" class="img">
+                <img src="./img/three/1.svg" alt="" />
+                <h3>Green Space Realty</h3>
+              </a>
+
+              <p>
+                Pioneers in eco-friendly properties committed to sustainable
+                living solutions for modern buyers
+              </p>
+
+              <img src="./img/three/User Thumb.svg" alt="" />
+
+              <div>
+                <h3>Author Name</h3>
+
+                <h5>Emily Johnson</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="item">
+              <a href="#" class="img">
+                <img src="./img/three/2.svg" alt="" />
+                <h3>Skyline Builders</h3>
+              </a>
+
+              <p>
+                Skyline Builders is recognized for creating spaces that redefine
+                urban living with each new development
+              </p>
+
+              <img src="./img/three/User Thumb.svg" alt="" />
+
+              <div>
+                <h3>Author Name</h3>
+
+                <h5>John Smith</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="item">
+              <a href="#" class="img">
+                <img src="./img/three/1.svg" alt="" />
+                <h3>Elite Property Group</h3>
+              </a>
+
+              <p>
+                Elite Property Group specializes in luxury real estate, offering
+                exclusive properties and exceptional service to clients
+              </p>
+
+              <img src="./img/three/User Thumb.svg" alt="" />
+
+              <div>
+                <h3>Author Name</h3>
+
+                <h5>David Brown</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="blogs">
+      <div class="container">
+        <div class="headeng">
+          <h2>Recently Added</h2>
+
+          <a href="#">
+            Show More
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              viewBox="0 0 16 16"
+              fill="none"
+            >
+              <path
+                d="M2.55994 8.00006C2.55994 4.99206 4.99194 2.56006 7.99994 2.56006C11.0079 2.56006 13.4399 4.99206 13.4399 8.00006C13.4399 11.0081 11.0079 13.4401 7.99994 13.4401C4.99194 13.4401 2.55994 11.0081 2.55994 8.00006ZM12.7999 8.00006C12.7999 5.34406 10.6559 3.20006 7.99994 3.20006C5.34394 3.20006 3.19994 5.34406 3.19994 8.00006C3.19994 10.6561 5.34394 12.8001 7.99994 12.8001C10.6559 12.8001 12.7999 10.6561 12.7999 8.00006Z"
+                fill="#455A64"
+              />
+              <path
+                d="M7.45606 10.656L10.1121 8L7.45606 5.344L7.90406 4.896L11.0081 8L7.90406 11.104L7.45606 10.656Z"
+                fill="#455A64"
+              />
+              <path
+                d="M10.5601 7.67993V8.31993L5.12006 8.31993V7.67993L10.5601 7.67993Z"
+                fill="#455A64"
+              />
+            </svg>
+          </a>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-6 col-md-4 col-xl-3">
+            <div class="item">
+              <img src="./img/blogs/1.png" alt="" />
+              <div class="text">
+                <div class="headeng">
+                  <h5>Downtown Cairo - Zamalek</h5>
+
+                  <p>
+                    Modern 2-bedroom apartment in a prime location with city
+                    views
+                  </p>
+                </div>
+
+                <div class="price">
+                  <h4>$25,000</h4>
+
+                  <p>360m²<span>Living Area</span></p>
+                </div>
+
+                <a href="#"> Buy </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-4 col-xl-3">
+            <div class="item">
+              <img src="./img/blogs/2.png" alt="" />
+              <div class="text">
+                <div class="headeng">
+                  <h5>Downtown Cairo - Zamalek</h5>
+
+                  <p>
+                    Modern 2-bedroom apartment in a prime location with city
+                    views
+                  </p>
+                </div>
+
+                <div class="price">
+                  <h4>$25,000</h4>
+
+                  <p>360m²<span>Living Area</span></p>
+                </div>
+
+                <a href="#"> Buy </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-4 col-xl-3">
+            <div class="item">
+              <img src="./img/blogs/3.png" alt="" />
+              <div class="text">
+                <div class="headeng">
+                  <h5>Downtown Cairo - Zamalek</h5>
+
+                  <p>
+                    Modern 2-bedroom apartment in a prime location with city
+                    views
+                  </p>
+                </div>
+
+                <div class="price">
+                  <h4>$25,000</h4>
+
+                  <p>360m²<span>Living Area</span></p>
+                </div>
+
+                <a href="#"> Rent </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-4 col-xl-3">
+            <div class="item">
+              <img src="./img/blogs/4.png" alt="" />
+              <div class="text">
+                <div class="headeng">
+                  <h5>Downtown Cairo - Zamalek</h5>
+
+                  <p>
+                    Modern 2-bedroom apartment in a prime location with city
+                    views
+                  </p>
+                </div>
+
+                <div class="price">
+                  <h4>$25,000</h4>
+
+                  <p>360m²<span>Living Area</span></p>
+                </div>
+
+                <a href="#"> Rent </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-4 col-xl-3">
+            <div class="item">
+              <img src="./img/blogs/5.png" alt="" />
+              <div class="text">
+                <div class="headeng">
+                  <h5>Downtown Cairo - Zamalek</h5>
+
+                  <p>
+                    Modern 2-bedroom apartment in a prime location with city
+                    views
+                  </p>
+                </div>
+
+                <div class="price">
+                  <h4>$25,000</h4>
+
+                  <p>360m²<span>Living Area</span></p>
+                </div>
+
+                <a href="#"> Buy </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-4 col-xl-3">
+            <div class="item">
+              <img src="./img/blogs/6.png" alt="" />
+              <div class="text">
+                <div class="headeng">
+                  <h5>Downtown Cairo - Zamalek</h5>
+
+                  <p>
+                    Modern 2-bedroom apartment in a prime location with city
+                    views
+                  </p>
+                </div>
+
+                <div class="price">
+                  <h4>$25,000</h4>
+
+                  <p>360m²<span>Living Area</span></p>
+                </div>
+
+                <a href="#"> Buy </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-4 col-xl-3">
+            <div class="item">
+              <img src="./img/blogs/7.png" alt="" />
+              <div class="text">
+                <div class="headeng">
+                  <h5>Downtown Cairo - Zamalek</h5>
+
+                  <p>
+                    Modern 2-bedroom apartment in a prime location with city
+                    views
+                  </p>
+                </div>
+
+                <div class="price">
+                  <h4>$25,000</h4>
+
+                  <p>360m²<span>Living Area</span></p>
+                </div>
+
+                <a href="#"> Rent </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-4 col-xl-3">
+            <div class="item">
+              <img src="./img/blogs/8.png" alt="" />
+              <div class="text">
+                <div class="headeng">
+                  <h5>Downtown Cairo - Zamalek</h5>
+
+                  <p>
+                    Modern 2-bedroom apartment in a prime location with city
+                    views
+                  </p>
+                </div>
+
+                <div class="price">
+                  <h4>$25,000</h4>
+
+                  <p>360m²<span>Living Area</span></p>
+                </div>
+
+                <a href="#"> Rent </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-us">
+      <div class="container">
+        <div class="text">
+          <h2>contact us</h2>
+
+          <p>
+            We have the best engineers and experts in the world, and we are
+            working in the best designs that suit the modern era
+          </p>
+        </div>
+        <div class="links">
+          <a href="#" class="contact"> Contact Us </a>
+
+          <a href="#" class="read"> Read More </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="subscribe">
+      <div class="container">
+        <div class="d-flex">
+          <div class="text">
+            <h2>Subscribe to The New</h2>
+            <p>
+              To know all that is new, subscribe to receive all new offers and
+              discounts
+            </p>
+          </div>
+          <form>
+            <input type="email" placeholder="Enter Your Email" />
+            <button>Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="top-footer">
+        <div class="container">
+          <div class="d-flex">
+            <div class="logo">
+              <a href="#">
+                <img src="./img/footer/logo.svg" alt="" />
+              </a>
+            </div>
+
+            <ul class="text">
+              <li>
+                <a href="#"> Home </a>
+              </li>
+
+              <li>
+                <a href="#"> About </a>
+              </li>
+
+              <li>
+                <a href="#"> Products </a>
+              </li>
+
+              <li>
+                <a href="#"> Contact Us </a>
+              </li>
+            </ul>
+
+            <ul class="icons">
+              <li>
+                <a href="#">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                  >
+                    <path
+                      d="M17.812 5.01699H6.145C3.855 5.01699 2 6.85199 2 9.11599V14.884C2 17.148 3.856 18.984 6.145 18.984H17.812C20.102 18.984 21.957 17.148 21.957 14.884V9.11599C21.957 6.85199 20.101 5.01599 17.812 5.01599V5.01699ZM15.009 12.28L9.552 14.855C9.51872 14.871 9.48192 14.8784 9.44503 14.8763C9.40815 14.8743 9.37237 14.863 9.34103 14.8434C9.3097 14.8239 9.28382 14.7967 9.2658 14.7645C9.24779 14.7322 9.23822 14.6959 9.238 14.659V9.34999C9.23867 9.31286 9.24872 9.27651 9.26722 9.24432C9.28573 9.21212 9.31208 9.18513 9.34382 9.16587C9.37556 9.1466 9.41167 9.13568 9.44877 9.13413C9.48587 9.13258 9.52276 9.14044 9.556 9.15699L15.014 11.892C15.0504 11.9101 15.0809 11.9381 15.102 11.9728C15.1232 12.0075 15.1341 12.0474 15.1336 12.0881C15.1331 12.1287 15.1211 12.1683 15.0991 12.2025C15.077 12.2366 15.0458 12.2638 15.009 12.281V12.28Z"
+                      fill="white"
+                    />
+                  </svg>
+                </a>
+              </li>
+
+              <li>
+                <a href="#">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                  >
+                    <path
+                      d="M9.04598 5.865V8.613H7.03198V11.973H9.04598V21.959H13.18V11.974H15.955C15.955 11.974 16.215 10.363 16.341 8.601H13.197V6.303C13.197 5.96 13.647 5.498 14.093 5.498H16.347V2H13.283C8.94298 2 9.04598 5.363 9.04598 5.865Z"
+                      fill="white"
+                    />
+                  </svg>
+                </a>
+              </li>
+
+              <li>
+                <a href="#">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                  >
+                    <path
+                      d="M22 5.90704C21.2504 6.23442 20.4565 6.44908 19.644 6.54404C20.4968 6.04327 21.138 5.24915 21.448 4.31004C20.64 4.78037 19.7587 5.11164 18.841 5.29004C18.4545 4.88525 17.9897 4.56343 17.4748 4.34422C16.9598 4.12501 16.4056 4.01301 15.846 4.01504C13.58 4.01504 11.743 5.82504 11.743 8.05504C11.743 8.37104 11.779 8.68004 11.849 8.97504C10.2236 8.89774 8.63212 8.48245 7.17617 7.75568C5.72022 7.02891 4.43176 6.00662 3.393 4.75404C3.02883 5.36844 2.83742 6.06982 2.839 6.78404C2.8397 7.45201 3.00683 8.10927 3.32529 8.69644C3.64375 9.2836 4.1035 9.78215 4.663 10.147C4.01248 10.126 3.37602 9.95237 2.805 9.64004V9.69004C2.805 11.648 4.22 13.281 6.095 13.653C5.74261 13.7465 5.37958 13.7939 5.015 13.794C4.75 13.794 4.493 13.769 4.242 13.719C4.51008 14.527 5.02311 15.2314 5.70982 15.7344C6.39653 16.2374 7.22284 16.5141 8.074 16.526C6.61407 17.6506 4.82182 18.2581 2.979 18.253C2.647 18.253 2.321 18.233 2 18.197C3.88125 19.3877 6.06259 20.0183 8.289 20.015C15.836 20.015 19.962 13.858 19.962 8.51904L19.948 7.99604C20.7529 7.42971 21.4481 6.72189 22 5.90704Z"
+                      fill="white"
+                    />
+                  </svg>
+                </a>
+              </li>
+
+              <li>
+                <a href="#">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                  >
+                    <path
+                      d="M16.017 2H7.947C6.37015 2.00185 4.85844 2.62914 3.74353 3.74424C2.62862 4.85933 2.00159 6.37115 2 7.948L2 16.018C2.00185 17.5948 2.62914 19.1066 3.74424 20.2215C4.85933 21.3364 6.37115 21.9634 7.948 21.965H16.018C17.5948 21.9631 19.1066 21.3359 20.2215 20.2208C21.3364 19.1057 21.9634 17.5938 21.965 16.017V7.947C21.9631 6.37015 21.3359 4.85844 20.2208 3.74353C19.1057 2.62862 17.5938 2.00159 16.017 2V2ZM19.957 16.017C19.957 16.5344 19.8551 17.0468 19.6571 17.5248C19.4591 18.0028 19.1689 18.4371 18.803 18.803C18.4371 19.1689 18.0028 19.4591 17.5248 19.6571C17.0468 19.8551 16.5344 19.957 16.017 19.957H7.947C6.90222 19.9567 5.90032 19.5415 5.16165 18.8026C4.42297 18.0638 4.008 17.0618 4.008 16.017V7.947C4.00827 6.90222 4.42349 5.90032 5.16235 5.16165C5.90122 4.42297 6.90322 4.008 7.948 4.008H16.018C17.0628 4.00827 18.0647 4.42349 18.8034 5.16235C19.542 5.90122 19.957 6.90322 19.957 7.948V16.018V16.017Z"
+                      fill="white"
+                    />
+                    <path
+                      d="M11.9819 6.81897C10.6134 6.82109 9.30148 7.36576 8.33385 8.33358C7.36621 9.3014 6.8218 10.6134 6.81995 11.982C6.82153 13.3509 7.36597 14.6633 8.33385 15.6314C9.30172 16.5994 10.614 17.1441 11.9829 17.146C13.352 17.1444 14.6646 16.5998 15.6327 15.6317C16.6008 14.6636 17.1454 13.3511 17.1469 11.982C17.1448 10.6131 16.5999 9.30085 15.6316 8.33316C14.6634 7.36547 13.3509 6.82129 11.9819 6.81997V6.81897ZM11.9819 15.138C11.1452 15.138 10.3427 14.8056 9.75102 14.2139C9.15935 13.6222 8.82695 12.8197 8.82695 11.983C8.82695 11.1462 9.15935 10.3437 9.75102 9.75205C10.3427 9.16037 11.1452 8.82797 11.9819 8.82797C12.8187 8.82797 13.6212 9.16037 14.2129 9.75205C14.8045 10.3437 15.1369 11.1462 15.1369 11.983C15.1369 12.8197 14.8045 13.6222 14.2129 14.2139C13.6212 14.8056 12.8187 15.138 11.9819 15.138Z"
+                      fill="white"
+                    />
+                    <path
+                      d="M17.1559 8.09497C17.8391 8.09497 18.3929 7.54115 18.3929 6.85797C18.3929 6.1748 17.8391 5.62097 17.1559 5.62097C16.4728 5.62097 15.9189 6.1748 15.9189 6.85797C15.9189 7.54115 16.4728 8.09497 17.1559 8.09497Z"
+                      fill="white"
+                    />
+                  </svg>
+                </a>
+              </li>
+
+              <li>
+                <a href="#">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                  >
+                    <path
+                      d="M21.959 13.719V21.098H17.681V14.213C17.681 12.483 17.062 11.303 15.514 11.303C14.332 11.303 13.628 12.099 13.319 12.868C13.206 13.143 13.177 13.526 13.177 13.911V21.098H8.897C8.897 21.098 8.955 9.438 8.897 8.229H13.177V10.053L13.149 10.095H13.177V10.053C13.745 9.178 14.76 7.927 17.033 7.927C19.848 7.927 21.959 9.767 21.959 13.719ZM4.421 2.026C2.958 2.026 2 2.986 2 4.249C2 5.484 2.93 6.473 4.365 6.473H4.393C5.886 6.473 6.813 5.484 6.813 4.249C6.787 2.986 5.887 2.026 4.422 2.026H4.421ZM2.254 21.098H6.532V8.229H2.254V21.098Z"
+                      fill="white"
+                    />
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="bottom-footer">
+        <div class="container">
+          <p>MyNest @ 202X. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/bootstrap.bundle.js"></script>
+  </body>
+</html>
