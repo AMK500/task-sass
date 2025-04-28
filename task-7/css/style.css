@@ -1,10 +1,8 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url(./bootstrap.css);
+@import url(./g-s.css);
 /* ___________HEADER__________ */
-
 /* #region HEADER */
-
 header {
   background: #232536;
 }
@@ -33,27 +31,27 @@ header .d-flex ul {
 }
 
 header .d-flex ul a {
-  color: #C8C8C8;
+  color: #c8c8c8;
   font-size: 17px;
   font-style: normal;
   font-weight: 400;
 }
 
 header .d-flex ul a:hover {
-  color: #FFF;
+  color: #fff;
 }
 
 header .d-flex ul a.active {
-  color: #FFF;
+  color: #fff;
   font-weight: 800;
 }
 
 .btn-primary {
   padding: 2px;
-  border: 2px solid #FFD050;
+  border: 2px solid #ffd050;
   transition: all 0.3s;
   display: none;
-  background-color: #FFD050;
+  background-color: #ffd050;
   border-radius: 8px;
 }
 
@@ -68,7 +66,7 @@ header .d-flex ul a.active {
 
 .btn-primary:hover {
   background-color: transparent;
-  border-color: #FFD050;
+  border-color: #ffd050;
 }
 
 .btn-primary svg path {
@@ -76,7 +74,7 @@ header .d-flex ul a.active {
 }
 
 .btn-primary:hover svg path {
-  fill: #FFD050;
+  fill: #ffd050;
 }
 
 .btn-primary svg {
@@ -95,13 +93,13 @@ header .d-flex ul a.active {
 .btn-close {
   box-shadow: none;
   background: transparent;
-  color: #FFD050;
+  color: #ffd050;
   font-weight: bold;
   font-size: 20px;
 }
 
 .btn-close:hover {
-  color: #FFD050;
+  color: #ffd050;
   opacity: 1;
 }
 
@@ -120,34 +118,23 @@ header .offcanvas-body nav ul {
 }
 
 @media (max-width: 760px) {
-
   .btn-primary {
     display: flex;
   }
-
   header .d-flex nav {
     display: none;
   }
-
   header .d-flex {
     gap: 0;
     justify-content: space-between;
   }
-
   header .offcanvas-body nav {
     display: block;
   }
-
 }
-
 /* #endregion HEADER */
-
-
-
 /* ____________HERO___________ */
-
 /* #region HERO */
-
 .hero {
   background-image: url(../img/hero/Image.png);
   background-position: center;
@@ -168,7 +155,7 @@ header .offcanvas-body nav ul {
 }
 
 .hero .item h1 {
-  color: #FFF;
+  color: #fff;
   text-align: center;
   font-size: calc(30px + 1.8vw);
   font-style: normal;
@@ -187,8 +174,8 @@ header .offcanvas-body nav ul {
   max-width: 880px;
   height: calc(40px + 2vw);
   border-radius: 11px;
-  background: #FFF;
-  color: #959EAD;
+  background: #fff;
+  color: #959ead;
   font-size: calc(14px + 0.5vw);
   font-style: normal;
   font-weight: 600;
@@ -202,8 +189,8 @@ header .offcanvas-body nav ul {
   min-width: 130px;
   height: calc(40px + 2vw);
   border-radius: 11px;
-  background: #FFD050;
-  border: 2px solid #FFD050;
+  background: #ffd050;
+  border: 2px solid #ffd050;
   color: #232536;
   text-align: center;
   font-size: calc(14px + 0.5vw);
@@ -215,29 +202,20 @@ header .offcanvas-body nav ul {
 
 .hero .item form button:hover {
   background: transparent;
-  color: #FFD050;
+  color: #ffd050;
 }
 
 @media (max-width: 500px) {
-
   .hero .item form {
     flex-direction: column;
   }
-
   .hero .item form button {
     min-width: 100%;
   }
-
 }
-
 /* #endregion HERO */
-
-
-
 /* ____________TWO____________ */
-
 /* #region TWO */
-
 .blogs {
   padding: 60px 0 50px 0;
 }
@@ -247,7 +225,7 @@ header .offcanvas-body nav ul {
 }
 
 .blogs .text h2 {
-  color: #424B5A;
+  color: #424b5a;
   font-size: calc(28px + 0.8vw);
   font-weight: bold;
   line-height: 100%;
@@ -264,7 +242,7 @@ header .offcanvas-body nav ul {
   padding: 16px;
   padding-bottom: 24px;
   border-radius: 16px;
-  background-color: #F4F0F8;
+  background-color: #f4f0f8;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -313,30 +291,19 @@ header .offcanvas-body nav ul {
 .blogs .row article .text-art p {
   font-size: 14px;
   font-weight: 400;
-  color: #3e3232c2;
-}
-
-@media (max-width: 500px) {
-
-
-
+  color: rgba(62, 50, 50, 0.7607843137);
 }
 
 /* #endregion TWO */
-
-
-
 /* ___________THREE___________ */
-
 /* #region THREE */
-
 .subscribe {
   padding-bottom: 60px;
 }
 
 .subscribe .row {
   border-radius: 8px;
-  border: 1px solid var(--Blue-light-2, #C2D1D9);
+  border: 1px solid var(--Blue-light-2, #c2d1d9);
   margin: 0;
   row-gap: 30px;
 }
@@ -376,14 +343,14 @@ header .offcanvas-body nav ul {
 }
 
 .subscribe .row .col-lg-6 .item .text h3 {
-  color: #424B5A;
+  color: #424b5a;
   font-size: 30px;
   font-style: normal;
   font-weight: 500;
 }
 
 .subscribe .row .col-lg-6 .item .text h4 {
-  color: #424B5A;
+  color: #424b5a;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -404,9 +371,9 @@ header .offcanvas-body nav ul {
   padding: 10px 24px;
   align-items: center;
   border-radius: 2px;
-  border: 1px solid #E0E0E0;
-  background: #FFF;
-  color: #424B5A;
+  border: 1px solid #e0e0e0;
+  background: #fff;
+  color: #424b5a;
   font-size: 13px;
   font-style: normal;
   font-weight: 300;
@@ -423,7 +390,7 @@ header .offcanvas-body nav ul {
   border-radius: 2px;
   border: 1px solid #232536;
   background: #232536;
-  color: #FFF;
+  color: #fff;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -436,23 +403,19 @@ header .offcanvas-body nav ul {
 }
 
 @media (max-width: 440px) {
-
   .subscribe .row .col-lg-6 .item .text {
     text-align: center;
   }
-
   .subscribe .row .col-lg-6 .item form {
     flex-direction: column;
   }
-
   .subscribe .row .col-lg-6 .item form input {
     max-width: 100%;
   }
-
   .subscribe .row .col-lg-6 .item form button {
     max-width: 100%;
   }
-
 }
-
 /* #endregion THREE */
+
+/*# sourceMappingURL=style.css.map */
